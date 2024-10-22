@@ -11,4 +11,8 @@ dependencies = [
     "pandas>=2.2.3",
     "requests>=2.32.3",
     "seaborn>=0.13.2",
+    "staffspy[browser]",
 ]
+
+[tool.uv.sources]
+staffspy = { git = "https://github.com/VictorBauler/StaffSpy", rev = "feature_school_alumni" }
